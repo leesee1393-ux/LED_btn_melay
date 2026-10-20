@@ -37,6 +37,12 @@ A Moore machine's output depends on the **registered state** only: `output = f(s
 
 If no button pulse occurs, each state holds. A synchronous implementation should use the 100 MHz clock and a single-cycle, debounced button-enable pulse.
 
+
+
+## video
+
+[▶ Watch LED Button Control Demo](LED_btn_melay_demo.mp4)
+
 ### Mealy FSM
 
 A Mealy machine's output depends on **state and input**: `output = f(state, input)`. Outputs are annotated on transitions as `input / output`, rather than inside state circles. The directional example in the figure is conceptual: if the same state has multiple transitions for the same button input, an additional direction signal or states are required to eliminate ambiguity. The sketched transitions are not a complete functional implementation.
