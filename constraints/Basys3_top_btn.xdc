@@ -1,0 +1,10 @@
+## Basys3 constraints adapted from author's uploaded XDC for top_btn.v
+set_property -dict { PACKAGE_PIN W5 IOSTANDARD LVCMOS33 } [get_ports clk]
+create_clock -name sys_clk_pin -period 10.000 [get_ports clk]
+set_property -dict { PACKAGE_PIN T1 IOSTANDARD LVCMOS33 } [get_ports reset]
+set_property -dict { PACKAGE_PIN R2 IOSTANDARD LVCMOS33 } [get_ports sel]
+set_property -dict { PACKAGE_PIN T18 IOSTANDARD LVCMOS33 } [get_ports btnU]
+set_property -dict { PACKAGE_PIN U17 IOSTANDARD LVCMOS33 } [get_ports btnD]
+set_property -dict { PACKAGE_PIN U16 IOSTANDARD LVCMOS33 } [get_ports {led[0]}]
+set_property -dict { PACKAGE_PIN E19 IOSTANDARD LVCMOS33 } [get_ports {led[1]}]
+set_property -dict { PACKAGE_PIN U19 IOSTANDARD LVCMOS33 } [get_ports {led[2]}]
