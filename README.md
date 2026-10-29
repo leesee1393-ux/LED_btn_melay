@@ -41,7 +41,7 @@ If no button pulse occurs, each state holds. A synchronous implementation should
 
 ## video
 
-[▶ Watch LED Button Control Demo](LED_btn_melay_demo.mp4)
+[▶ Watch LED Button Control Demo](https://youtu.be/Pnr6e_7VP5Q)
 
 ### Mealy FSM
 
